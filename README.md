@@ -1,68 +1,45 @@
-# rs snedker Hjemmeside
+# Images for rs snedker Website
 
-Dette er en moderne og responsiv hjemmeside for rs snedker, en professionel tømrer- og snedkervirksomhed baseret i Danmark.
+This directory contains all images used by the rs snedker website.
 
-## Funktioner
+## Image Requirements
 
-- Responsivt design der virker på alle enheder
-- Moderne og brugervenlig brugergrænseflade
-- Kontaktformular til kundeforespørgsler
-- Serviceoversigt over virksomhedens ydelser
-- Optimeret til søgemaskiner (SEO)
+### Hero Image (hero-bg.jpg)
+- Dimensions: 1920x1080px
+- Style: Professional carpentry/woodworking setting
+- Should have space for overlaid text
 
-## Teknologier
+### Project Images (project-1.jpg to project-6.jpg)
+- Dimensions: 800x600px (landscape) or 600x800px (portrait)
+- Showcase various carpentry projects
+- Should be high quality and well-lit
 
-- HTML5
-- CSS3 (med CSS-variabler og Flexbox/Grid)
-- JavaScript (ren JavaScript, ingen eksterne afhængigheder)
-- Font Awesome ikoner
-- Google Fonts
+### About Image (about.jpg)
+- Dimensions: 800x1000px
+- Professional image of the team or workshop
+- Should convey craftsmanship and professionalism
 
-## Installation
+### Logo (logo.png)
+- Dimensions: 200x100px (transparent background)
+- Simple, clean design with the text "rs snedker"
+- Should work on both light and dark backgrounds
 
-1. Klon dette repository
-2. Åbn `index.html` i din webbrowser
+### Favicon (favicon.ico)
+- Dimensions: 32x32px
+- Simplified version of the logo or initial "R"
 
-## Struktur
+## Image Sources
+- Use high-quality, royalty-free images from sources like Unsplash, Pexels, or Shutterstock
+- Ensure proper attribution if required by the image license
+- Optimize all images for web use (recommended tools: TinyPNG, ImageOptim)
 
-```
-/
-├── index.html          # Hoved HTML-fil
-├── css/
-│   └── style.css      # Hovedstilark
-├── js/
-│   └── script.js      # JavaScript-funktionalitet
-└── img/               # Billeder (opret denne mappe og tilføj dine egne billeder)
-```
+## Optimization Guidelines
+- Use JPEG for photographs
+- Use PNG for graphics with transparency
+- Compress all images to reduce file size without sacrificing quality
+- Consider using WebP format for better compression (with fallbacks for older browsers)
 
-## Billeder
-
-For at få hjemmesiden til at se rigtig godt ud, skal du tilføje følgende billeder i mappen `img/`:
-
-- `hero-bg.jpg` - Et stort bannerbillede til toppen af siden (anbefalet størrelse: min. 1920x1080px)
-- `logo.png` - Virksomhedens logo (anbefalet størrelse: min. 200x100px)
-- Andre relevante billeder af arbejde, team, osv.
-
-## Tilpasning
-
-Du kan nemt tilpasse hjemmesiden ved at redigere følgende:
-
-- Farver: Rediger CSS-variablerne i toppen af `style.css`
-- Tekster: Rediger indholdet i `index.html`
-- Kontaktoplysninger: Opdater i både headeren og footeren i `index.html`
-
-## Browserunderstøttelse
-
-Hjemmesiden er testet og fungerer i alle moderne browsere inklusive:
-- Google Chrome
-- Mozilla Firefox
-- Safari
-- Microsoft Edge
-
-## Licens
-
-Dette projekt er licensfrit og kan frit bruges og tilpasses.
-
-## Kontakt
-
-Har du spørgsmål eller brug for hjælp, er du velkommen til at kontakte os.
+## Naming Convention
+- Use kebab-case for all filenames
+- Be descriptive with filenames (e.g., `custom-cabinet-project.jpg` instead of `img123.jpg`)
+- Include size in filename if multiple sizes are needed (e.g., `hero-bg@2x.jpg` for retina displays)
