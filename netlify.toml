@@ -1,0 +1,7 @@
+[build]
+  publish = "docs"
+  command = ""
+
+[dev]
+  targetPort = 3000
+  framework = "html"
